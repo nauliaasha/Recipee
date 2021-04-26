@@ -1,0 +1,77 @@
+.jumbotron {
+  background-image: url(/src/assets/images/vegetables-set-left-black-slate.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  margin-top: -8rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url(/src/assets/images/menu.png);
+  width: 2em;
+  height: 2em;
+
+  &:hover {
+    background-image: url(/src/assets/images/menu-hover.png);
+  }
+}
+
+.close-toggler-icon {
+  display: inline-block;
+  background-image: url(/src/assets/images/close.png);
+  width: 2em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+
+  &:hover {
+    background-image: url(/src/assets/images/close-hover.png);
+  }
+}
+
+.form-inline {
+  justify-content: center;
+  margin-bottom: 3rem;
+
+  .form-control {
+    width: 80% !important;
+    border-color: #FFC107;
+
+    &::placeholder {
+      color: #1D1D1D;
+    }
+  }
+
+  .btn-warning {
+    color: white;
+
+    &:hover {
+      background-color: #F3A446;
+      border-color: #F3A446;
+      color: white;
+    }
+  }
+
+}
+
+
+.card-body {
+  .card-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card-title {
+    color: #F3A446;
+    font-weight: 700;
+  }
+}
