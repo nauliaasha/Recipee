@@ -67,7 +67,7 @@ class JumbotronHeader extends HTMLElement {
           one must love and respect food.
         </p>
         <p class="quotation">— Craig Claiborne</p>
-        <a href="#">
+        <a href="#search-bar">
           <button class="btn btn-lg btn-orange">Cook</button>
         </a>
       </div>
